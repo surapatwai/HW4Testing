@@ -27,3 +27,9 @@ list2 = []
 for i in range(20):
     list2.append(randint(1,12))
 print(list2)
+
+## ANSWER Q1.c
+##
+myTest = [-38, 72, -33, 18, 96, -83, 57, 41]
+myTotal = sum(myTest)
+print(myTotal)
