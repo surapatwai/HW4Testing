@@ -1,0 +1,13 @@
+prefix=/home/ubuntu/workspace/HW4/envs/py27
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.9.4
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private:   -L/home/ubuntu/workspace/HW4/envs/py27/lib -lz    -L/home/ubuntu/workspace/HW4/envs/py27/lib -liconv -lm  
+Cflags: -I${includedir}/libxml2 -I/home/ubuntu/workspace/HW4/envs/py27/include 

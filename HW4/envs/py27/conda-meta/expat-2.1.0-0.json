@@ -1,0 +1,35 @@
+{
+  "arch": "x86_64", 
+  "build": "0", 
+  "build_number": 0, 
+  "channel": "https://repo.continuum.io/pkgs/free/linux-64", 
+  "date": "2016-01-12", 
+  "depends": [], 
+  "files": [
+    "bin/xmlwf", 
+    "include/expat.h", 
+    "include/expat_external.h", 
+    "lib/libexpat.a", 
+    "lib/libexpat.la", 
+    "lib/libexpat.so", 
+    "lib/libexpat.so.1", 
+    "lib/libexpat.so.1.6.0", 
+    "lib/pkgconfig/expat.pc", 
+    "share/man/man1/xmlwf.1"
+  ], 
+  "fn": "expat-2.1.0-0.tar.bz2", 
+  "license": "MIT", 
+  "link": {
+    "source": "/home/ubuntu/workspace/HW4/pkgs/expat-2.1.0-0", 
+    "type": "hard-link"
+  }, 
+  "md5": "13df3cb2b432de77be2c13103c39692c", 
+  "name": "expat", 
+  "platform": "linux", 
+  "priority": 0, 
+  "schannel": "defaults", 
+  "size": 374261, 
+  "subdir": "linux-64", 
+  "url": "https://repo.continuum.io/pkgs/free/linux-64/expat-2.1.0-0.tar.bz2", 
+  "version": "2.1.0"
+}

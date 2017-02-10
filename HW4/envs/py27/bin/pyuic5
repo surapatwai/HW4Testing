@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /home/ubuntu/workspace/HW4/envs/py27/bin/python -m PyQt5.uic.pyuic ${1+"$@"}

@@ -78,4 +78,29 @@ class Die(object):
 ##
 my2dice = [Die(),Die()]
 print(my2dice[0].face+my2dice[1].face)
- 
+
+def printDiceStat( numberRolls ):
+
+    die = Die()
+    counts = [0, 0] 
+    
+    
+    
+    
+    
+    
+            
+    print("Number of rolls: {}".format(numberRolls)) 
+    
+    print("\n---------- Dice Stats -----------")    
+    percentage = 100. * counts[0] / numberRolls
+    print("face {} count: {:>3}, {:6.2f} %".format( "<= 3", counts[0], percentage )) 
+    
+    
+    
+    
+
+#--- Test the def printDiceStat ---
+rolls = 1000
+printDiceStat( rolls )
+

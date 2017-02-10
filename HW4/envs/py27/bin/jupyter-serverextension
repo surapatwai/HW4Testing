@@ -1,0 +1,6 @@
+#!/home/ubuntu/workspace/HW4/envs/py27/bin/python
+if __name__ == '__main__':
+    import sys
+    import notebook.serverextensions
+
+    sys.exit(notebook.serverextensions.main())

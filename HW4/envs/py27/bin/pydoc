@@ -1,0 +1,5 @@
+#!/home/ubuntu/workspace/HW4/envs/py27/bin/python
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

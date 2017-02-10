@@ -1,0 +1,18 @@
+prefix=/home/ubuntu/workspace/HW4/envs/py27
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+sysconfdir=${prefix}/etc
+localstatedir=${prefix}/var
+PACKAGE=fontconfig
+confdir=${sysconfdir}/fonts
+cachedir=${localstatedir}/cache/${PACKAGE}
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.12.1
+Requires:  freetype2
+Requires.private:  libxml-2.0
+Libs: -L${libdir} -lfontconfig
+Libs.private:  -L/home/ubuntu/workspace/HW4/envs/py27/lib -lfreetype   -L/home/ubuntu/workspace/HW4/envs/py27/lib -lxml2 
+Cflags: -I${includedir}  -I/home/ubuntu/workspace/HW4/envs/py27/include/freetype2   -I/home/ubuntu/workspace/HW4/envs/py27/include/libxml2 -I/home/ubuntu/workspace/HW4/envs/py27/include 
