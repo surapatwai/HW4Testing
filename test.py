@@ -55,3 +55,27 @@ print(mypiggy["20c"]+mypiggy["2$"]+mypiggy["10c"]+mypiggy["1$"])
 ## ANSWER Q3.b
 ## 
 print(mypiggy["20c"]*NZ_COINS["20c"]+mypiggy["2$"]*NZ_COINS["2$"]+mypiggy["10c"]*NZ_COINS["10c"]+mypiggy["1$"]*NZ_COINS["1$"])
+
+
+
+class Die(object):
+    def __init__(self):
+
+        self.__face = randint(1,6)
+    @property
+    def face(self):
+
+        return self.__face
+    
+    def roll(self):
+        self.__face = randint(1,6)
+        
+    def __str__(self):
+
+        return ( "Die face: {}".format(self.__face) )
+## ANSWER Q4.a
+##
+##
+my2dice = [Die(),Die()]
+print(my2dice[0].face+my2dice[1].face)
+ 
