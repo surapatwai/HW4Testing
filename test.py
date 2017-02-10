@@ -52,3 +52,6 @@ mypiggy  = { "20c": 11, "2$": 4, "10c": 5, "1$": 12 }
 ##  
 print(mypiggy["20c"]+mypiggy["2$"]+mypiggy["10c"]+mypiggy["1$"])
 
+## ANSWER Q3.b
+## 
+print(mypiggy["20c"]*NZ_COINS["20c"]+mypiggy["2$"]*NZ_COINS["2$"]+mypiggy["10c"]*NZ_COINS["10c"]+mypiggy["1$"]*NZ_COINS["1$"])
