@@ -1,5 +1,5 @@
 ## 57113045-9 :
-##  Birds In-Sky 
+##  Surapat Waiwattanakorn
 ##
 ##
 ##
@@ -42,5 +42,13 @@ def average(numbers):
     
 mynums = [i for i in range(51,101,5) ]
 print(mynums)
-
 print(average(mynums))
+
+NZ_COINS = { "10c": 0.10, "20c": 0.20, "50c": 0.50, "1$": 1, "2$": 2 } 
+
+## mypiggy keeps the number of NZ coins 
+mypiggy  = { "20c": 11, "2$": 4, "10c": 5, "1$": 12 }
+## ANSWER Q3.a
+##  
+print(mypiggy["20c"]+mypiggy["2$"]+mypiggy["10c"]+mypiggy["1$"])
+
