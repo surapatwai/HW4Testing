@@ -33,3 +33,14 @@ print(list2)
 myTest = [-38, 72, -33, 18, 96, -83, 57, 41]
 myTotal = sum(myTest)
 print(myTotal)
+
+## ANSWER Q2.d
+##
+
+def average(numbers):
+    return (sum(numbers)/len(numbers))
+    
+mynums = [i for i in range(51,101,5) ]
+print(mynums)
+
+print(average(mynums))
